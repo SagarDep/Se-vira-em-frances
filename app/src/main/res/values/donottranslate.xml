@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- French translation for color red -->
+    <string name="french_red">rouge</string>
+
+    <!-- French translation for color yellow -->
+    <string name="french_yellow">jaune</string>
+
+    <!-- French translation for color green -->
+    <string name="french_green">vert</string>
+
+    <!-- French translation for color brown -->
+    <string name="french_brown">marron</string>
+
+    <!-- French translation for color black -->
+    <string name="french_black">noir</string>
+
+    <!-- French translation for color gray -->
+    <string name="french_gray">gris</string>
+
+    <!-- French translation for color white -->
+    <string name="french_white">blanc</string>
+
+    <!-- French translation for father -->
+    <string name="french_father">père</string>
+
+    <!-- French translation for mother -->
+    <string name="french_mother">mère</string>
+
+    <!-- French translation for son -->
+    <string name="French_family_son">fils</string>
+
+    <!-- French translation for daughter -->
+    <string name="French_family_daughter">fille</string>
+
+    <!-- French translation brother -->
+    <string name="French_family_brother">frère</string>
+
+    <!-- French translation for sister -->
+    <string name="French_family_sister">soeur</string>
+
+    <!-- French translation for grandmother -->
+    <string name="French_family_grandmother">grand-mère</string>
+
+    <!-- French translation for grandfather -->
+    <string name="French_family_grandfather">grand-père</string>
+
+    <!-- French translation for number one -->
+    <string name="French_number_one">un</string>
+
+    <!-- French translation for number two -->
+    <string name="French_number_two">deux</string>
+
+    <!-- French translation for number three -->
+    <string name="French_number_three">trois</string>
+
+    <!-- French translation for number four -->
+    <string name="French_number_four">quatre</string>
+
+    <!-- French translation for number five -->
+    <string name="French_number_five">cinq</string>
+
+    <!-- French translation for number six -->
+    <string name="French_number_six">six</string>
+
+    <!-- French translation for number seven -->
+    <string name="French_number_seven">sept</string>
+
+    <!-- French translation for number eight -->
+    <string name="French_number_eight">huit</string>
+
+    <!-- French translation for number nine -->
+    <string name="French_number_nine">neuf</string>
+
+    <!-- French translation for number ten -->
+    <string name="French_number_ten">dix</string>
+
+    <!-- French translation for phrase "Where are you going?" -->
+    <string name="French_phrase_where_are_you_going">où vas-tu</string>
+
+    <!-- French translation for phrase "What is your name?" -->
+    <string name="French_phrase_what_is_your_name">quel est ton nom?</string>
+
+    <!-- French translation for phrase "My name is..." -->
+    <string name="French_phrase_my_name_is">Mon nom est...</string>
+
+    <!-- French translation for phrase "How are you feeling?" -->
+    <string name="French_phrase_how_are_you">comment ça va?</string>
+
+    <!-- French translation for phrase "I'm feeling good." -->
+    <string name="French_phrase_im_feeling_good">ça va bien</string>
+
+    <!-- French translation for phrase "Are you coming?" -->
+    <string name="French_phrase_are_you_coming">viens-tu?</string>
+
+    <!-- French translation for phrase "Yes, I'm coming." -->
+    <string name="French_phrase_yes_im_coming">Oui, je vais y aller</string>
+
+    <!-- French translation for phrase "Let's go." -->
+    <string name="French_phrase_lets_go">Allons-y</string>
+
+    <!-- French translation for phrase "Come here." -->
+    <string name="French_phrase_come_here">venez ici</string>
+</resources>
