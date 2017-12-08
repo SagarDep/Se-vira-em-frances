@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_label">Se vira em francês</string>
+
+    <!-- Search hint -->
+    <string name="search_hint">procurar por...</string>
 
     <!-- French translation for color red -->
     <string name="french_red">rouge</string>
