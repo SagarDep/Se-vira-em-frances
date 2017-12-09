@@ -2,4 +2,4 @@
 
 > An app with portuguese to french translation, applied Fragments, ViewPager and TabLayout.
 
-<img src="https://i.imgur.com/w7cjNBl.gif" width="400" height="790">
+<img src="master/app_frances.gif?raw=true" width="200px">
