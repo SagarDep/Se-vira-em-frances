@@ -1,4 +1,4 @@
-package com.lccj.se_vira_em_frances;
+package com.lccj.se_vira_em_frances.fragments;
 
 
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import com.lccj.se_vira_em_frances.R;
+import com.lccj.se_vira_em_frances.utils.Word;
+import com.lccj.se_vira_em_frances.adapters.WordAdapter;
 import java.util.ArrayList;
 
 /**

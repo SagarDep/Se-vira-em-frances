@@ -1,4 +1,4 @@
-package com.lccj.se_vira_em_frances;
+package com.lccj.se_vira_em_frances.adapters;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.lccj.se_vira_em_frances.R;
+import com.lccj.se_vira_em_frances.utils.Word;
 import java.util.ArrayList;
 
 /**

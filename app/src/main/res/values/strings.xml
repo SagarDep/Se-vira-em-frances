@@ -2,6 +2,14 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Se vira em francês</string>
 
+    <!-- Tab titles -->
+    <string-array name="titles_tab">
+        <item>Números</item>
+        <item>Familia</item>
+        <item>Cores</item>
+        <item>Frases</item>
+    </string-array>
+
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="category_phrases">Frases</string>
 

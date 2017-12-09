@@ -8,47 +8,47 @@
     android:label="@string/app_name"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-    <activity android:name="com.lccj.se_vira_em_frances.MainActivity">
+    <activity android:name="com.lccj.se_vira_em_frances.activities.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
     <activity
-      android:name="com.lccj.se_vira_em_frances.NumbersActivity"
+      android:name="com.lccj.se_vira_em_frances.activities.NumbersActivity"
       android:label="@string/category_numbers"
-      android:parentActivityName="com.lccj.se_vira_em_frances.MainActivity">
+      android:parentActivityName="com.lccj.se_vira_em_frances.activities.MainActivity">
       <!-- Parent activity meta-data to support 4.0 and lower -->
       <meta-data
         android:name="android.support.PARENT_ACTIVITY"
-        android:value="com.lccj.se_vira_em_frances.MainActivity"/>
+        android:value="com.lccj.se_vira_em_frances.activities.MainActivity"/>
     </activity>
     <activity
-      android:name="com.lccj.se_vira_em_frances.FamilyActivity"
+      android:name="com.lccj.se_vira_em_frances.activities.FamilyActivity"
       android:label="@string/category_family"
-      android:parentActivityName="com.lccj.se_vira_em_frances.MainActivity">
+      android:parentActivityName="com.lccj.se_vira_em_frances.activities.MainActivity">
       <!-- Parent activity meta-data to support 4.0 and lower -->
       <meta-data
         android:name="android.support.PARENT_ACTIVITY"
-        android:value="com.lccj.se_vira_em_frances.MainActivity"/>
+        android:value="com.lccj.se_vira_em_frances.activities.MainActivity"/>
     </activity>
     <activity
-      android:name="com.lccj.se_vira_em_frances.ColorsActivity"
+      android:name="com.lccj.se_vira_em_frances.activities.ColorsActivity"
       android:label="@string/category_colors"
-      android:parentActivityName="com.lccj.se_vira_em_frances.MainActivity">
+      android:parentActivityName="com.lccj.se_vira_em_frances.activities.MainActivity">
       <!-- Parent activity meta-data to support 4.0 and lower -->
       <meta-data
         android:name="android.support.PARENT_ACTIVITY"
-        android:value="com.lccj.se_vira_em_frances.MainActivity"/>
+        android:value="com.lccj.se_vira_em_frances.activities.MainActivity"/>
     </activity>
     <activity
-      android:name="com.lccj.se_vira_em_frances.PhrasesActivity"
+      android:name="com.lccj.se_vira_em_frances.activities.PhrasesActivity"
       android:label="@string/category_phrases"
-      android:parentActivityName="com.lccj.se_vira_em_frances.MainActivity">
+      android:parentActivityName="com.lccj.se_vira_em_frances.activities.MainActivity">
       <!-- Parent activity meta-data to support 4.0 and lower -->
       <meta-data
         android:name="android.support.PARENT_ACTIVITY"
-        android:value="com.lccj.se_vira_em_frances.MainActivity"/>
+        android:value="com.lccj.se_vira_em_frances.activities.MainActivity"/>
     </activity>
   </application>
 

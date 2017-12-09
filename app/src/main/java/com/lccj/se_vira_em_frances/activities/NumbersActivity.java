@@ -1,7 +1,9 @@
-package com.lccj.se_vira_em_frances;
+package com.lccj.se_vira_em_frances.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import com.lccj.se_vira_em_frances.R;
+import com.lccj.se_vira_em_frances.fragments.NumbersFragment;
 
 public class NumbersActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.lccj.se_vira_em_frances;
+package com.lccj.se_vira_em_frances.utils;
 
 /**
  * {@link Word} represents a vocabulary word that the user wants to learn.

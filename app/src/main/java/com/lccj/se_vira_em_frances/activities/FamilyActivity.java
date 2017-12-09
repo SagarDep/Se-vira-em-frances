@@ -1,16 +1,18 @@
-package com.lccj.se_vira_em_frances;
+package com.lccj.se_vira_em_frances.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import com.lccj.se_vira_em_frances.R;
+import com.lccj.se_vira_em_frances.fragments.FamilyFragment;
 
-public class PhrasesActivity extends AppCompatActivity {
+public class FamilyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.container, new PhrasesFragment())
+                .replace(R.id.container, new FamilyFragment())
                 .commit();
     }
 }

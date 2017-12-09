@@ -1,11 +1,15 @@
-package com.lccj.se_vira_em_frances;
+package com.lccj.se_vira_em_frances.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+import com.lccj.se_vira_em_frances.R;
+import com.lccj.se_vira_em_frances.adapters.CategoryAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +18,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+
+        //---------------- Setting ViewPager --------------------
+
+        // Find the view pager that will allow the user to swipe between fragments
+        ViewPager viewPager = findViewById(R.id.viewpager);
+
+        CategoryAdapter adapter = new CategoryAdapter(this, getSupportFragmentManager());
+
+        // Set the adapter onto the view pager
+        viewPager.setAdapter(adapter);
+
+
+        //---------------- Setting TabLayout --------------------
+
+        // Find the tab layout that shows the tabs
+        TabLayout tabLayout = findViewById(R.id.sliding_tabs);
+
+        tabLayout.setupWithViewPager(viewPager);
+
+
+        //--------------- Setting the List of items ---------------
+
 
         TextView numbers = (TextView) findViewById(R.id.numbers);
         numbers.setOnClickListener(new OnClickListener() {
